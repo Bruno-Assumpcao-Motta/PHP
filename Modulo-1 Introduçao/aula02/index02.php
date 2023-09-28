@@ -1,7 +1,8 @@
 <?php
 $nome = 'Bruno';
 $sobrenome = 'Assumpção';
+$idade = 47;
 
-$nomeCompleto = "$nome $sobrenome";
+$frase = "$nome $sobrenome tem $idade anos";
 
-echo $nomeCompleto;
+echo $frase;

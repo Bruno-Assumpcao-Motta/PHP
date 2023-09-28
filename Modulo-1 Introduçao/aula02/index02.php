@@ -1,8 +1,8 @@
 <?php
 $nome = 'Bruno';
-$sobrenome = 'Assumpção';
-$idade = 47;
+$sobrenome = ' Assumpção';
 
-$frase = "$nome $sobrenome tem $idade anos";
+$nomeCompleto = $nome; // . + - * /
+$nomeCompleto .= $sobrenome;
 
-echo $frase;
+echo $nomeCompleto;

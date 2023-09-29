@@ -1,11 +1,14 @@
 <?php
 $tipo = 'texto';
-if($tipo == 'foto'){
-    echo 'Exibindo uma foto';
-}
-if($tipo == 'video'){
-    echo 'Exibindo um video';
-}
-if($tipo == 'texto'){
-    echo 'Exibindo um texto';
+
+switch($tipo){
+    case 'foto':
+        echo 'Exibindo Foto';
+        break;
+    case 'video':
+        echo 'Exibindo Video';
+        break;
+    case 'texto':
+        echo 'Exibindo texto';
+        break;
 }

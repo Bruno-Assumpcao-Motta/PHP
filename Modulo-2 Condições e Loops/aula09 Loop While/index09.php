@@ -1,4 +1,8 @@
 <?php
-for($numero = 0; $numero < 10; $numero += 1) {
+$numero = 0;
+
+while($numero < 10) {
     echo "N: ".$numero."<br/>";
+
+    $numero += 1;
 }

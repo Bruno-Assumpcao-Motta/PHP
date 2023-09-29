@@ -7,6 +7,6 @@ $ingredientes = [
     'fermento em pó'
 ];
 
-foreach($ingredientes as $ingrediente){
-    echo "Item: ".$ingrediente."<br/>";
+foreach($ingredientes as $chave => $valor){
+    echo "Item ".$chave.": ".$valor."<br/>";
 }

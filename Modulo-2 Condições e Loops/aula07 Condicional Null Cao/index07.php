@@ -4,5 +4,7 @@ $nome = 'Bruno';
 
 
 
-$nomeCompleto = $nome;
-$nomeCompleto .= isset($sobrenome) ? $sobrenome : '';
+$nomeCompleto = $nome ?? 'visitante';
+$nomeCompleto .= $sobrenome ?? '';
+
+echo $nomeCompleto;

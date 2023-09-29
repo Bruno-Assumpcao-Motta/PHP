@@ -8,4 +8,6 @@ $numero = $numero + 1
 $numero+= 1
 $numero++
 */
-for($i=0;$i<10;$i++)
+for($i=1;$i<=10;$i++){
+    echo $i.'<br/>';
+}

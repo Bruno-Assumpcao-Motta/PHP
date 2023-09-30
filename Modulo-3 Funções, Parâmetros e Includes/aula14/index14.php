@@ -7,3 +7,4 @@ function subsequente() {
 }
 
 subsequente();
+subsequente();

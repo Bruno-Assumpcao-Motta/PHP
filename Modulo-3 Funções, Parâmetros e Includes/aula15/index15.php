@@ -4,5 +4,8 @@ function somar($n1, $n2){
     return $total;
 }
 
-$resultado = somar(10, 5);
-echo "TOTAL: ".$resultado;
+$x = somar(1, 4);
+$y = somar(5, 8);
+$w = somar($x, $y);
+
+echo "TOTAL: ".$w;

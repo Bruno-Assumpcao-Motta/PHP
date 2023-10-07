@@ -1,4 +1,4 @@
 <?php
-$numero = 12.428773;
+$aleatorio = rand(3, 25);
 
-echo round($numero, 2);
+echo $aleatorio;

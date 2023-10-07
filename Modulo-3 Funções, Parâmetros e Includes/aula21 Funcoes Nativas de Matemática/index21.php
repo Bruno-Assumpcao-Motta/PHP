@@ -1,5 +1,5 @@
 <?php
-// abs Transforma em numero positivo
+// abs transforma em numero positivo
 // floor arredonda um valor sempre para baixo
 // ceil arredonda um valor sempre para cima
 // round arredonda para o maior ou menor

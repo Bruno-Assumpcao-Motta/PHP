@@ -1,4 +1,6 @@
 <?php
 $nome = 'Bruno Motta';
 
-echo strtoupper($nome);
+$nomeAlterado = str_replace('Motta', 'Assumpção', $nome);
+
+echo $nomeAlterado;

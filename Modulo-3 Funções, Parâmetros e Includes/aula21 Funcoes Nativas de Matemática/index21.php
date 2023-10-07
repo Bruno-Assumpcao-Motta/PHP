@@ -1,4 +1,4 @@
 <?php
-$aleatorio = rand(3, 25);
+$lista = [1, 4, 8, 9];
 
-echo $aleatorio;
+echo max($lista);

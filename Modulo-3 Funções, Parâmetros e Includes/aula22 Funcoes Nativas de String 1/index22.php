@@ -1,5 +1,5 @@
 <?php
-$nomeSujo = '  Bruno    ';
+$nomeSujo = '    Bruno      ';
 $nomeLimpo = trim($nomeSujo);
 
 echo "NOME SUJO: ".strlen($nomeSujo)."<br/>";

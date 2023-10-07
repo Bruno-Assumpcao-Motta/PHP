@@ -1,10 +1,10 @@
 <?php
-$numero = -8.4;
+$numero = 2.7;
 
-echo abs($numero)."<br/>";
-
-echo pi()."<br/>";
+echo round($numero);
 
 
 
+
+ 
  

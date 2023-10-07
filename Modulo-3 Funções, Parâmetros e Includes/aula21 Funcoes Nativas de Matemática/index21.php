@@ -1,10 +1,4 @@
 <?php
-$numero = 2.7;
+$numero = 12.428773;
 
-echo round($numero);
-
-
-
-
- 
- 
+echo round($numero, 2);
